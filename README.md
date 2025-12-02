@@ -1,15 +1,14 @@
 # AI Civil Servant Agent (POC)
 
-A Proof of Concept (POC) demonstrating an **Agentic AI** workflow for public administration. This application acts as a "Civil Servant" chatbot that interviews a user to collect data and automatically generates a filled, official-looking PDF application for a 14-year-old's Identity Card.
+A Proof of Concept (POC) demonstrating a simple workflow for public administration that may be integrated in more complicated Agentic AI workflows. This application acts as a "Civil Servant" chatbot that interviews a user to collect data and automatically generates a filled, good-looking PDF application for a 14-year-old's Identity Card.
 
-> **Note:** This project is a technical demonstration inspired by agentic workflows (like Mantix.cloud). The generated PDF is for demonstration purposes only.
+> **Note:** The generated PDF is for demonstration purposes only.
 
 ## 🚀 Features
 
 * **Agentic Interface:** A conversational UI (built with Streamlit) that replaces complex static forms.
-* **Dynamic PDF Generation:** Creates a pristine, fillable PDF template from scratch using Python (`reportlab`).
+* **Dynamic PDF Generation:** Creates a fillable PDF template from scratch using Python (`reportlab`).
 * **Auto-Filling:** Maps user data into the PDF form fields programmatically (`PyPDFForm`).
-* **English & Error-Free:** Uses standard Helvetica fonts to ensure compatibility across all operating systems.
 
 <img width="1470" height="936" alt="Screenshot 2025-12-02 215807" src="https://github.com/user-attachments/assets/bf9ed404-0286-41ac-a620-15e032c2aa9f" />
 
@@ -22,13 +21,12 @@ A Proof of Concept (POC) demonstrating an **Agentic AI** workflow for public adm
 * **Streamlit:** For the web interface.
 * **ReportLab:** To draw the PDF template and form fields.
 * **PyPDFForm:** To fill the interactive PDF fields.
-* **Pydantic:** (Optional) For data validation.
 
 ## 📦 Installation
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/ci-agent-poc.git](https://github.com/YOUR_USERNAME/ci-agent-poc.git)
+    git clone [https://github.com/tonyc973/ci-agent-poc.git](https://github.com/YOUR_USERNAME/ci-agent-poc.git)
     cd ci-agent-poc
     ```
 

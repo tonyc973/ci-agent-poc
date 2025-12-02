@@ -1,0 +1,60 @@
+# AI Civil Servant Agent (POC)
+
+A Proof of Concept (POC) demonstrating an **Agentic AI** workflow for public administration. This application acts as a "Civil Servant" chatbot that interviews a user to collect data and automatically generates a filled, official-looking PDF application for a 14-year-old's Identity Card.
+
+> **Note:** This project is a technical demonstration inspired by agentic workflows (like Mantix.cloud). The generated PDF is for demonstration purposes only.
+
+## 🚀 Features
+
+* **Agentic Interface:** A conversational UI (built with Streamlit) that replaces complex static forms.
+* **Dynamic PDF Generation:** Creates a pristine, fillable PDF template from scratch using Python (`reportlab`).
+* **Auto-Filling:** Maps user data into the PDF form fields programmatically (`PyPDFForm`).
+* **English & Error-Free:** Uses standard Helvetica fonts to ensure compatibility across all operating systems.
+
+## 🛠️ Tech Stack
+
+* **Python 3.8+**
+* **Streamlit:** For the web interface.
+* **ReportLab:** To draw the PDF template and form fields.
+* **PyPDFForm:** To fill the interactive PDF fields.
+* **Pydantic:** (Optional) For data validation.
+
+## 📦 Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/ci-agent-poc.git](https://github.com/YOUR_USERNAME/ci-agent-poc.git)
+    cd ci-agent-poc
+    ```
+
+2.  Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## ▶️ How to Run
+
+1.  **Generate the Template:**
+    Run the generator script once to create the blank PDF form in the `assets/` folder.
+    ```bash
+    python3 generator.py
+    ```
+
+2.  **Start the Agent:**
+    Launch the Streamlit interface.
+    ```bash
+    streamlit run main.py
+    ```
+
+3.  **Interact:**
+    Open your browser to `http://localhost:8501`, chat with the agent, and download your filled PDF at the end.
+
+## 📂 Project Structure
+
+```text
+.
+├── assets/                  # Stores the generated blank PDF
+├── generator.py             # Script to draw the blank PDF template
+├── main.py                  # The Streamlit application logic
+├── requirements.txt         # Project dependencies
+└── README.md                # Documentation

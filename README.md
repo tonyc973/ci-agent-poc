@@ -26,7 +26,7 @@ A Proof of Concept (POC) demonstrating a simple workflow for public administrati
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/tonyc973/ci-agent-poc.git](https://github.com/YOUR_USERNAME/ci-agent-poc.git)
+    git clone [https://github.com/tonyc973/ci-agent-poc.git](https://github.com/tonyc973/ci-agent-poc.git)
     cd ci-agent-poc
     ```
 

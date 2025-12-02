@@ -11,6 +11,11 @@ A Proof of Concept (POC) demonstrating an **Agentic AI** workflow for public adm
 * **Auto-Filling:** Maps user data into the PDF form fields programmatically (`PyPDFForm`).
 * **English & Error-Free:** Uses standard Helvetica fonts to ensure compatibility across all operating systems.
 
+<img width="1470" height="936" alt="Screenshot 2025-12-02 215807" src="https://github.com/user-attachments/assets/bf9ed404-0286-41ac-a620-15e032c2aa9f" />
+
+<img width="996" height="939" alt="image" src="https://github.com/user-attachments/assets/ae6796a7-ec79-46c2-8db8-f2b538ee62c2" />
+
+
 ## 🛠️ Tech Stack
 
 * **Python 3.8+**
